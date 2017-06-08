@@ -1,0 +1,19 @@
+{
+  "name": "mean-basic-register",
+  "version": "1.0.0",
+  "authors": [
+    "Agustín David Cruz González"
+  ],
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.6.4",
+    "angular-route": "1.6.4",
+    "angular-ui-router": "1.0.3",
+    "angular-ui-bootstrap": "2.5.0",
+    "bootstrap": "3.3.7",
+    "jQuery": "3.2.1"
+  }
+}

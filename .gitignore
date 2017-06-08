@@ -25,6 +25,7 @@ coverage
 
 # Bower dependency directory (https://bower.io/)
 bower_components
+client/libs
 
 # node-waf configuration
 .lock-wscript
@@ -57,3 +58,7 @@ typings/
 # dotenv environment variables file
 .env
 
+# Intellij IDEA
+.idea/
+*.iws
+/server/node_modules/
