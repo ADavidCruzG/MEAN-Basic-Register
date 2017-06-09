@@ -10,10 +10,10 @@
   ],
   "dependencies": {
     "angular": "~1.6.4",
-    "angular-route": "1.6.4",
+    "angularjs-toaster": "2.1.0",
     "angular-ui-router": "1.0.3",
-    "angular-ui-bootstrap": "2.5.0",
     "bootstrap": "3.3.7",
+    "fontawesome": "4.7.0",
     "jQuery": "3.2.1"
   }
 }

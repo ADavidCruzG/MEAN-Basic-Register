@@ -1,2 +1,15 @@
 # MEAN-Basic-Register
-Formulario básico de registro usando el stack MEAN
+Formulario de registro con validaciones básicas y diseño responsive.
+
+### Lenguajes, tecnologías y herramientas usadas
+
+- Javascript
+- Node.js
+- Express.js
+- AngularJS
+- Bootstrap
+- Conexión a base de datos MongoDB
+- Font Awesome
+
+
+> *Se implementa encriptación de contraseña
