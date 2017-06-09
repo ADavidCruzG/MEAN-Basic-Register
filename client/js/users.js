@@ -3,7 +3,7 @@
  */
 'use strict';
 
-let usersModule = angular.module('users', [])
+var usersModule = angular.module('users', [])
     .config( function($controllerProvider, $compileProvider, $filterProvider, $provide) {
         usersModule.controller = $controllerProvider.register;
         usersModule.directive = $compileProvider.directive;
