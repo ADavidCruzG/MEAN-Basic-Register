@@ -12,7 +12,7 @@ angular.module('users')
 
         $scope.createUser = function () {
             var userToCreate = $scope.user;
-            
+
             UserService.getUserByEmail(userToCreate.email)
                 .then(function (res) {
                     if (typeof res.data === 'undefined' || res.data === null) {
@@ -46,17 +46,4 @@ angular.module('users')
         };
 
         $scope.start();
-
-
-        if ($state.current.name === 'app.users') {
-
-        } else if ($state.current.name === 'app.users_create') {
-            $rootScope.Title = 'Crear Usuario';
-            $scope.saveData = function (userToCreate) {
-                $scope.IsSubmit = true;
-                if ($scope.userForm.$valid) {
-
-                }
-            };
-        }
     });
